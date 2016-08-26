@@ -1,0 +1,189 @@
+.main-right{
+		position: absolute;
+		right: 0;
+		top:0;
+		width: 270px;
+	}
+	.main-body-right-change{
+		right: 0;
+		top:0;
+	}
+	.main-right .side-ad{
+		position: relative;
+	}
+	.main-right .side-ad img{
+		cursor: pointer;
+        border-radius:6px;
+	}
+	.main-right .side-ad a{
+		display:none;
+		position: absolute;
+		display: block;
+		width: 17px;
+		height: 17px;
+		right: 6px;
+		top: 6px;
+		background: url("../image/icon1.png");
+		background-repeat: no-repeat;
+		background-position: 0 -75px;
+	}
+	.alt{
+		display: none;
+        position: absolute;
+        top:35px;
+        right: -20px;
+        width: 68px;
+        height: 29px;
+        text-align: center;
+        line-height: 29px;
+        color: #fff;
+        font-size: 13px;
+        background-color: rgba(0,0,0,.75);
+        border-radius: 4px;
+	}
+	.alt-arrow{
+		display:none;
+		position: absolute;
+		top: 27px;
+        right: 6px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid rgba(0,0,0,.75);     /*三角形*/
+	}
+	.main-right ul:not(.divider){
+		margin:0;
+		padding: 0;
+		margin-top: 20px;
+		font-size:13px;
+		color: rgb(102,102,102);
+	}
+	.main-right .sidebar-list ul li:not(.divider){
+		border-radius: 4px;
+		line-height: 28px;
+		height: 28px;
+		text-indent: 10px;
+	}
+	.main-right  ul li:not(.divider):hover,.main-right li:hover a{
+		cursor: pointer;
+		color: rgb(34,85,153);
+		background-color:rgb(239,246,250);
+
+	}
+	.main-right .divider{
+		margin: 10px 0;
+		height: 1px;
+		background-color: #eee;
+	}
+	.main-right .sidebar-list span{
+		display:inline-block;
+		margin-right: 6px;
+		width: 14px;
+		height: 16px;
+		vertical-align: middle;
+		background-image: url("../image/sidebar-list-icon.png");
+        background-repeat: no-repeat;
+	}
+	.main-right .sidebar-list li:nth-child(1) span{
+		background-position: -167px -4px;
+	}
+	.main-right .sidebar-list li:nth-child(2) span{
+        background-position: -183px -4px;
+	}
+	.main-right .sidebar-list li:nth-child(3) span{
+        background-position: -200px -4px;
+	}
+	.main-right .sidebar-list li:nth-child(5) span{
+        background-position: -234px -5px;
+	}
+	.main-right .sidebar-list li:nth-child(6) span{
+        background-position: -269px -5px;
+	}
+	.main-right .sidebar-list li:nth-child(7) span{
+		background-image: url("../image/sidebar-list-icon1.png");
+        background-position: -24px -41px;
+	}
+	.main-right .sidebar-list li:nth-child(8) span{
+		background-image: url("https://static.zhihu.com/static/revved/img/copyright/copyright.f77ea167.svg");
+        background-position: 0 0;
+	}
+	.main-right h3{
+		text-indent: 10px;
+		font-size: 14px;
+		font-weight: 700;
+		color: #222;
+	}
+	.main-right h3 a{
+		font-weight: 400;
+        font-size: 12px;
+        float: right;
+        margin-top: 1px;
+	}
+    .main-right li:not(.divider){
+    	border-radius: 4px;
+    }
+    .main-right .sidebar li a{
+    	height: 36px;
+		text-indent: 10px;
+		text-decoration: none;
+		border-radius: 4px;
+    	display: block;
+    	width: 100%;
+    	color: rgb(102,102,102);
+        line-height: 36px;
+    }
+    .main-right .side-zhuanlan span,.main-right .side-yuanzhuo span,
+    .main-right .side-ebook span,.main-right .side-download span{
+    	margin-right: 10px;
+    	vertical-align: middle;
+    	display: inline-block;
+    	width: 26px;
+    	height: 26px;
+    	background-repeat: no-repeat;
+    	background-position:  0 0;
+    }
+    .main-right .side-zhuanlan span{
+    	background-image: url("../image/zhuanlan.png");
+    }
+    .main-right .side-yuanzhuo li:nth-child(1) span{
+    	background-image: url("https://pic1.zhimg.com/7dad59601ba6ce0083aac674a16c3074_s.png");
+    }
+    .main-right .side-yuanzhuo li:nth-child(2) span{
+    	background-image: url("https://pic3.zhimg.com/34b5298e3b8dd7da373d610e88d7688a_s.png");
+    }
+    .main-right .side-yuanzhuo li:nth-child(3) span{
+    	background-image: url("https://pic3.zhimg.com/fa70eff301ba417d4a9d3f55d603a29e_s.png");
+    }
+    .main-right .side-ebook li:nth-child(3) span{
+    	background-image: url("https://static.zhihu.com/static/revved/img/ebooks/weekly.65279d61.png");
+    }
+    .main-right .side-ebook li:nth-child(2) span{
+    	background-image: url("https://static.zhihu.com/static/revved/img/ebooks/hour.3d371c99.png");
+    }
+    .main-right .side-ebook li:nth-child(1) span{
+    	background-image: url("https://static.zhihu.com/static/revved/img/ebooks/nacl.656ec1c4.png");
+    }
+    .main-right .side-download span{
+    	background-image: url("../image/zhuanlan.png");
+    	background-position: 0 -27px;
+    }
+
+    .main-right .side-footer ul{
+    	margin-left: 6px;
+       	clear: both;
+    }
+   .main-right .side-footer li{
+      	margin-left: 4px;
+      	height: 18px;
+      	text-indent: 0;
+      	float: left;
+    }
+    .side-footer{
+        position: relative;
+    }
+    .main-right .side-footer .copy{
+        cursor: default;
+    }
+    .main-right .side-footer .copy:hover{
+        color:rgb(102,102,102);
+    }
+      
