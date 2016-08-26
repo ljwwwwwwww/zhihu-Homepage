@@ -40,10 +40,10 @@ $(document).ready(function(){
     }
     //Right-sidebar-icon
     $(sidebarListItem[7]).hover(function(){
-    	var url="url('../image/copyright1.png')";
+    	var url="url('image/copyright1.png')";
     	$(sidebarListIcon[6]).css({"background-image":url});
     },function(){
-    	var url="url('../image/copyright.png')";
+    	var url="url('image/copyright.png')";
     	$(sidebarListIcon[6]).css({"background-image":url});
     })
 })
