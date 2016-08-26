@@ -1,22 +1,25 @@
 $(document).ready(function(){
 	var homeListContent=$(".home-list-content");
 	var contentItemLength=$(homeListContent).length;
-        var contentExit=[];
-		var contentExitAlt=[];
-		var contentExitArrow=[];
-		var contentFooter=$(".content-footer");
-	    var contentFooterToggle=[];
-		var contentFooterHide=[];
+    var contentExit=[];
+	var contentExitAlt=[];
+	var contentExitArrow=[];
+	var contentFooter=$(".content-footer");
+    var contentFooterToggle=[];
+	var contentFooterHide=[];
 	//头像与数字随机
     for(var i=0;i<contentItemLength;i++)
     {   
         var writerProfileImg=$(homeListContent[i]).find(".writerProfile").find("img");
+        var contentpic=$(homeListContent[i]).find(".content-body-img").find("img");
 	    var readNumber=$(homeListContent[i]).find(".readNumber");
 	    var commentNumber=$(homeListContent[i]).find(".comment");
+	    var content=Math.floor(Math.random()*8+1);
     	var photo=Math.floor(Math.random()*7+1);
         var read=Math.floor(Math.random()*10000);
         var comment=Math.floor(Math.random()*1000);
       	$(writerProfileImg).attr("src","image/photo"+photo+".jpg");
+      	$(contentpic).attr("src","image/contentpic"+content+".jpg");
         $(readNumber).text(read);
         $(commentNumber).text(comment+"条评论");
     }
