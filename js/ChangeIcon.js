@@ -40,10 +40,10 @@ $(document).ready(function(){
     }
     //Right-sidebar-icon
     $(sidebarListItem[7]).hover(function(){
-    	var url="url('https://static.zhihu.com/static/revved/img/copyright/copyright__hover.07ae8f44.svg')";
+    	var url="url('../image/copyright1.png')";
     	$(sidebarListIcon[6]).css({"background-image":url});
     },function(){
-    	var url="url('https://static.zhihu.com/static/revved/img/copyright/copyright.f77ea167.svg')";
+    	var url="url('../image/copyright.png')";
     	$(sidebarListIcon[6]).css({"background-image":url});
     })
 })
