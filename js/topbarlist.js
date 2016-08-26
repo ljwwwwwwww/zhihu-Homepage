@@ -2,17 +2,12 @@ $(document).ready(function(){
 	var topbarList=$("#navbarCollapse li");
 	var topbarlength=topbarList.length;
     for(var i=0;i<topbarlength-1;i++)
-    {   
-    	
-
-        
+    {       
     	$(topbarList[i]).click(
     		(function(index){
              return function(){clickFun(index)};
             })(i)
         )
-        
-
     	/*方法一
     	(function(){
     	    var index=i;
@@ -21,8 +16,7 @@ $(document).ready(function(){
     	    });
         })();
         */
-    	
-
+    
     	/*   var index=i;
 	    	 console.log(index);
 	         $(topbarList[index]).click(function(){

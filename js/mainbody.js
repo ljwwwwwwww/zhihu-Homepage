@@ -39,9 +39,6 @@ $(document).ready(function(){
 		var height=$(mainbodyLeft).height();
 		var mainbodyWidth=$(mainbody).width();    //改为监测mainbodyWidth
 		var browserWidth=$(window).width();
-		 console.log(mainbodyWidth)
-		 console.log(width)
-
 		if(mainbodyWidth<810)
 		{
            $(mainbodyLeft).addClass("main-body-left-change");
