@@ -3,6 +3,21 @@
 	text-decoration: none;
 	list-style: none;
 }
+@media(max-width: 360px){
+    .homeEntry .dialog li{
+        padding: 0;
+        padding-right: 3px;
+    }
+    .homeEntry .dialog i{
+        margin-right: 2px;
+    }
+    .homeEntry .dialog li:not(:last-child):after{
+        margin-left: 2px;
+    }
+    .content-body-img img{
+        margin-right: 50px;
+    }
+}
 /* main-body */
 .main-body{
 	position: relative;
@@ -235,7 +250,7 @@
 .content-right .content-title{
 	margin: 0;
 	padding: 0;
-	height: 23px;
+	min-height: 23px;
 }
 .content-right .content-title a{
 	height: 16px;
