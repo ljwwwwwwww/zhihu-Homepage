@@ -5,15 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>知乎-首页</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
     <link rel="stylesheet" type="text/css" href="css/topbar.css">
     <link rel="stylesheet" type="text/css" href="css/main-right.css">
-    <link rel="stylesheet" type="text/css" href="css/content.css">
-
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    @media(max-width: 360px){
+        .homeEntry .dialog li{
+            padding: 0;
+            padding-right: 3px;
+        }
+        .homeEntry .dialog i{
+            margin-right: 2px;
+        }
+        .homeEntry .dialog li:not(:last-child):after{
+            margin-left: 2px;
+        }
+        .content-body-img img{
+            margin-right: 50px;
+        }
+    }
+    </style>
 </head>
 <body>
 
